@@ -3,8 +3,8 @@ title: stock_price
 account: phamdinhkhanh
 server: beta.rstudioconnect.com
 appId: 2779
-bundleId: 5989
+bundleId: 6010
 url: https://beta.rstudioconnect.com/content/2779/
-when: 1495045952.87217
+when: 1495356189.00934
 asMultiple: FALSE
 asStatic: FALSE

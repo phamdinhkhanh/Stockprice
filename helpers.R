@@ -1,3 +1,10 @@
+
+library(quantmod)
+Allsymbols <- stockSymbols()
+
+
+
+
 if (!exists(".inflation")) {
   .inflation <- getSymbols('CPIAUCNS', src = 'FRED', 
      auto.assign = FALSE)
@@ -24,4 +31,6 @@ adjust <- function(data) {
       axts
 }
 
-
+formatFigure <- function(figure,k){
+  formatC(format(round(figure,k)),big.mark = ",")
+}
